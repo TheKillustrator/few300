@@ -1,1 +1,45 @@
-<p>dashboard works!</p>
+<mat-card>
+  <mat-card-title>Actions</mat-card-title>
+  <mat-card-actions>
+    <button mat-button
+            color="primary">Add New Item</button>
+  </mat-card-actions>
+</mat-card>
+<mat-card>
+  <mat-card-title>Forecast</mat-card-title>
+  <mat-card-content>
+    <mat-chip-list>
+      <mat-chip color="accent">Overdue (3)</mat-chip>
+      <mat-chip color="accent">Today (3)</mat-chip>
+      <mat-chip color="accent">Tomorrow (3)</mat-chip>
+      <mat-chip color="accent">Later (3)</mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+</mat-card>
+<mat-card>
+  <mat-card-title>Inbox</mat-card-title>
+  <mat-card-content>Inbox items have no project assigned.</mat-card-content>
+  <mat-card-actions>
+    <button mat-button>
+      <mat-chip>
+        <mat-icon>inbox</mat-icon>(12)
+      </mat-chip>
+    </button>
+  </mat-card-actions>
+</mat-card>
+<mat-card>
+  <mat-card-title>Projects</mat-card-title>
+  <mat-card-content>Todo items assigned to a project.</mat-card-content>
+  <mat-card-actions>
+    <button mat-button>
+      <mat-chip>
+        <mat-icon>event</mat-icon> New Courses (12)
+      </mat-chip>
+    </button>
+    <button mat-button>
+      <mat-chip>
+        <mat-icon>event</mat-icon> Chores (12)
+      </mat-chip>
+    </button>
+  </mat-card-actions>
+</mat-card>

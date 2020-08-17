@@ -15,6 +15,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatDialogModule } from '@angular/material/dialog';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     DashboardComponent
   ],
   imports: [
-    BrowserModule,
+
     AppRoutingModule,
     BrowserAnimationsModule,
     LayoutModule,
@@ -34,7 +35,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatListModule,
     MatCardModule,
     MatChipsModule,
-    MatDialogModule
+    MatDialogModule,
+    DragDropModule,
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
